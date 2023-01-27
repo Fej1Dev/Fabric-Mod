@@ -10,9 +10,9 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item RAW_PANZIN = registerItem("raw_panzin",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.PANZIN)));
     public static final Item PANZIN = registerItem("panzin",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.PANZIN)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FabricMod.MOD_ID, name), item);

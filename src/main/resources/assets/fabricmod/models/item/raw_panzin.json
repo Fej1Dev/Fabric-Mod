@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fabric-mod:item/raw_panzin"
+    "layer0": "fabricmod:item/raw_panzin"
   }
 }
