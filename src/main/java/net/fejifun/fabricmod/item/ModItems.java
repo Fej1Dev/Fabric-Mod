@@ -13,6 +13,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.PANZIN)));
     public static final Item PANZIN = registerItem("panzin",
             new Item(new FabricItemSettings().group(ModItemGroup.PANZIN)));
+    public static final Item HEATED_PANZIN = registerItem("heated_panzin",
+            new Item(new FabricItemSettings().group(ModItemGroup.PANZIN)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FabricMod.MOD_ID, name), item);

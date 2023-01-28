@@ -1,6 +1,9 @@
 {
   "item.fabricmod.raw_panzin": "Raw Panzin",
   "item.fabricmod.panzin": "Panzin",
+  "item.fabricmod.heated_panzin": "Heated Panzin",
+  "block.fabricmod.panzin_block": "Panzin Block",
+  "block.fabricmod.panzin_ore": "Panzin Ore",
 
   "itemGroup.fabricmod.panzin": "Panzin Mod"
 }
